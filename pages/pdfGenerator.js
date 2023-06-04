@@ -34,7 +34,7 @@ const PdfGenerator = () => {
   };
 
   return (
-    <div>
+    <div className="container">
       <h1>PDF Generator</h1>
       <Form>
         <FormGroup>

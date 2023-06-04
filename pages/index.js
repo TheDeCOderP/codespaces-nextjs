@@ -1,7 +1,15 @@
 import PdfGenerator from './pdfGenerator';
 
+import Header from '../components/Header';
+
 const Home = () => {
-  return <PdfGenerator />;
+  return (
+    <>
+  <Header />
+  <PdfGenerator />
+  </>
+  
+  );
 };
 
 export default Home;
